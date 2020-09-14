@@ -1,0 +1,23 @@
+{
+  "name": "herokalc",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/adxl/herokalc.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/adxl/herokalc/issues"
+  },
+  "homepage": "https://github.com/adxl/herokalc#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
