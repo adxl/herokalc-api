@@ -3,29 +3,29 @@ const app = express()
 
 app.use(express.json())
 
-app.get('/', (req, res) => {
-    res.send('FETCH')
-})
+// app.get('/', (req, res) => {
+//     res.send('FETCH')
+// })
 
-app.post('/add', (req, res) => {
+app.post('/add/', (req, res) => {
     const a = req.body.a;
     const b = req.body.b;
     res.send(`${a + b}`)
 })
 
-app.post('/sub', (req, res) => {
+app.post('/sub/', (req, res) => {
     const a = req.body.a;
     const b = req.body.b;
     res.send(`${a - b}`)
 })
 
-app.post('/mul', (req, res) => {
+app.post('/mul/', (req, res) => {
     const a = req.body.a;
     const b = req.body.b;
     res.send(`${a * b}`)
 })
 
-app.post('/div', (req, res) => {
+app.post('/div/', (req, res) => {
     const a = req.body.a;
     const b = req.body.b;
     if (b)
