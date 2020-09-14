@@ -33,4 +33,4 @@ app.post('/div', (req, res) => {
     res.send("Error")
 })
 
-app.listen('3000')
+app.listen(process.env.PORT || 5000)
