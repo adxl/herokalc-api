@@ -3,6 +3,10 @@ const app = express()
 
 app.use(express.json())
 
+app.get('/', (req, res) => {
+    res.send('FETCH')
+})
+
 app.post('/add', (req, res) => {
     const a = req.body.a;
     const b = req.body.b;
